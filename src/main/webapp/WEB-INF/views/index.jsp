@@ -1,9 +1,14 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
+    <meta charset="UTF-8">
+    <title>Index page</title>
 </head>
 <body>
-<h2>안녕! 김나임 👀</h2>
+
+<jsp:forward page="list.jsp" />
+
 </body>
 </html>
