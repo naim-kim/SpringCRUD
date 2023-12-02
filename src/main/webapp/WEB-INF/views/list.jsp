@@ -1,11 +1,10 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.util.List" %>
 <%@ page import="com.example.spring.board.BoardVO" %>
 <%@ page import="com.example.spring.board.BoardDAO" %>
 <%@ page import="org.springframework.web.context.support.WebApplicationContextUtils" %>
 <%@ page import="org.springframework.context.ApplicationContext" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" pageEncoding="UTF-8"%>
 <html>
 <head>
     <title>Students List</title>
@@ -68,7 +67,7 @@
             <td>${u.number}</td>
             <td>${u.major}</td>
             <td>${u.regdate}</td>
-            <td><a href="board/editform/${u.seq}">Edit</a></td>
+            <td><a href="editform/${u.seq}">Edit</a></td>
             <td><a href="javascript:delete_ok('${u.seq}')">Delete</a></td>
         </tr>
     </c:forEach>

@@ -18,7 +18,8 @@
             <td>Major</td>
             <td><input type="text" name="major"/></td>
         </tr>
-        <tr><td><a href="list.jsp">View All Records</a></td><td align="right"><input type="submit" value="Add Post"/></td></tr>
+        <tr><td><a href="<c:url value='/board/list'/>">View All Records</a>
+        </td><td align="right"><input type="submit" value="Add Post"/></td></tr>
     </table>
 
 </form>

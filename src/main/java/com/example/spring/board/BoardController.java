@@ -6,19 +6,19 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-@RequestMapping("/board")
-@Controller
 
+@Controller
+@RequestMapping("/board")
 public class BoardController {
 
     @Autowired
     private BoardServiceImpl boardService;
 
-    @GetMapping("board/list")
+    @GetMapping("/list")
     public String getBoardList(Model model) {
-        List<BoardVO> boardList = boardService.getBoardList(); // Fetch your list from the service
+        List<BoardVO> boardList = boardService.getBoardList();
         model.addAttribute("list", boardList);
-        return "list"; // The name of your JSP page without the extension
+        return "list";
     }
 
     @GetMapping("/add")
@@ -61,5 +61,9 @@ public class BoardController {
             System.out.println("Nice");
         }
         return "redirect:./list";
+    }
+    @GetMapping("/")
+    public String redirectToBoardList() {
+        return "redirect:/board/list";
     }
 }
