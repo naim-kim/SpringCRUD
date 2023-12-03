@@ -770,8 +770,8 @@ p231_22000056|schema||p231_22000056||UPDATE|G</Grants>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <schema id="237" parent="1" name="p231_22000056">
-      <IntrospectionTimestamp>2023-12-03.07:44:05</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-12-02.13:44:09</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-12-04.06:37:35</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-12-03.12:37:35</LocalIntrospectionTimestamp>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <user id="238" parent="1" name="p231_22000056"/>
@@ -783,7 +783,7 @@ p231_22000056|schema||p231_22000056||UPDATE|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="241" parent="237" name="students">
+    <table id="241" parent="237" name="MEMBER">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
@@ -819,7 +819,7 @@ p231_22000056|schema||p231_22000056||UPDATE|G</Grants>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="249" parent="240" name="contacts">
+    <column id="249" parent="240" name="content">
       <DasType>varchar(20)|0s</DasType>
       <Position>4</Position>
     </column>
@@ -857,36 +857,38 @@ p231_22000056|schema||p231_22000056||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="257" parent="241" name="seq">
-      <AutoIncrement>7</AutoIncrement>
+      <AutoIncrement>1</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="258" parent="241" name="name">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
+      <DasType>varchar(50)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="259" parent="241" name="number">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
+    <column id="259" parent="241" name="studentnum">
+      <DasType>varchar(20)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="260" parent="241" name="major">
-      <DasType>varchar(300)|0s</DasType>
+    <column id="260" parent="241" name="phonenum">
+      <DasType>varchar(10)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="261" parent="241" name="regdate">
-      <DasType>timestamp|0s</DasType>
-      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    <column id="261" parent="241" name="major">
+      <DasType>varchar(100)|0s</DasType>
       <Position>5</Position>
     </column>
-    <index id="262" parent="241" name="PRIMARY">
+    <column id="262" parent="241" name="regdate">
+      <DasType>timestamp|0s</DasType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <Position>6</Position>
+    </column>
+    <index id="263" parent="241" name="PRIMARY">
       <ColNames>seq</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="263" parent="241" name="PRIMARY">
+    <key id="264" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

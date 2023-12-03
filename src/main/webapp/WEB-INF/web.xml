@@ -38,11 +38,4 @@
     <filter-name>encodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
-  <taglib>
-    <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
-    <taglib-location>/WEB-INF/jstl-1.2.jar</taglib-location> <!-- Use the correct path -->
-  </taglib>
-  <welcome-file-list>
-    <welcome-file>/board/list</welcome-file>
-  </welcome-file-list>
 </web-app>
