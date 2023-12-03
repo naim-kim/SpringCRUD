@@ -9,15 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddd663ca-535f-4e0f-bba7-aeb71a2ac4e1" name="Changes" comment=".war">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3/storage_v2/_src_/schema/p231_22000056.oIKePg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3/storage_v2/_src_/schema/p231_22000056.oIKePg.meta" afterDir="false" />
+    <list default="true" id="ddd663ca-535f-4e0f-bba7-aeb71a2ac4e1" name="Changes" comment="simple css added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +376,7 @@
       <workItem from="1701525471882" duration="5105000" />
       <workItem from="1701583155858" duration="22718000" />
       <workItem from="1701609193512" duration="6000" />
-      <workItem from="1701611176332" duration="2728000" />
+      <workItem from="1701611176332" duration="2853000" />
     </task>
     <task id="LOCAL-00001" summary="data doesn't show">
       <option name="closed" value="true" />
@@ -433,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701607816320</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="simple css added">
+      <option name="closed" value="true" />
+      <created>1701613946567</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701613946567</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,6 +459,7 @@
     <MESSAGE value="Redefined.&#10;- table contents recreated&#10;-controller fixed&#10;- all view jsp pages working" />
     <MESSAGE value="added details" />
     <MESSAGE value=".war" />
-    <option name="LAST_COMMIT_MESSAGE" value=".war" />
+    <MESSAGE value="simple css added" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple css added" />
   </component>
 </project>
