@@ -7,8 +7,7 @@
     <title>Index page</title>
 </head>
 <body>
-
-<jsp:forward page="list.jsp" />
-
+<h1>Hello!</h1>
+<a href="board/list">Go to Board</a>
 </body>
 </html>

@@ -2,6 +2,7 @@ package com.example.spring.board;
 
 import com.example.spring.board.BoardVO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Repository;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+
 @Repository
 public class BoardDAO {
     JdbcTemplate jdbctemplate;
@@ -19,12 +21,10 @@ public class BoardDAO {
     }
 
     public int insertBoard(BoardVO vo) {
-        String sql = "insert into students (name, number, major) VALUES ("
-                + "'" + vo.getName() + "',"
-                + "'" + vo.getNumber() + "',"
-                + "'" + vo.getMajor() +  "')";
-        return jdbctemplate.update(sql);
+        String sql = "INSERT INTO students (name, number, major) VALUES (?, ?, ?)";
+        return jdbctemplate.update(sql, vo.getName(), vo.getNumber(), vo.getMajor());
     }
+
 
     // Method to delete a student by their ID
     public int deleteBoard(int seq) {
@@ -33,14 +33,11 @@ public class BoardDAO {
     }
 
     public int updateBoard(BoardVO vo) {
-        String sql = "update students set title='" + vo.getName() + "',"
-                + "name='" + vo.getName() + "',"
-                + "number='" + vo.getNumber() + "',"
-                + "major='" + vo.getMajor() + "' where seq=" + vo.getSeq();
-        return jdbctemplate.update(sql);
-
+        String sql = "UPDATE students SET name=?, number=?, major=? WHERE seq=?";
+        return jdbctemplate.update(sql, vo.getName(), vo.getNumber(), vo.getMajor(), vo.getSeq());
     }
-        class BoardRowMapper implements RowMapper<BoardVO> {
+
+    class BoardRowMapper implements RowMapper<BoardVO> {
             @Override
             public BoardVO mapRow(ResultSet rs, int rowNum) throws SQLException {
                 BoardVO vo = new BoardVO();
@@ -53,8 +50,12 @@ public class BoardDAO {
             }
         }
     public BoardVO getBoard(int seq) {
-        String sql = "select * from students where seq=" + seq;
-        return jdbctemplate.queryForObject(sql, new BoardRowMapper());
+        String sql = "SELECT * FROM students WHERE seq=?";
+        try {
+            return jdbctemplate.queryForObject(sql, new BoardRowMapper(), seq);
+        } catch (EmptyResultDataAccessException e) {
+            return null;
+        }
     }
 
     public List<BoardVO> getBoardList() {

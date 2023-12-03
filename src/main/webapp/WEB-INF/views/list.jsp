@@ -8,18 +8,34 @@
 <html>
 <head>
     <title>Students List</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <style>
+        body {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            color: #006bb3;
+        }
+
         #list {
             font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
             border-collapse: collapse;
-            width: 100%;
+            width: 90%;
+            margin-top: 20px;
         }
 
-        #list td, #list th {
+        #list th, #list td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: center;
+        }
+
+        #list th {
+            background-color: #006bb3;
+            color: white;
+            padding-top: 12px;
+            padding-bottom: 12px;
         }
 
         #list tr:nth-child(even) {
@@ -30,12 +46,35 @@
             background-color: #ddd;
         }
 
-        #list th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: center;
+        #edit {
+            width: 50%;
+            margin-top: 20px;
+        }
+
+        #edit td {
+            padding: 8px;
+        }
+
+        input[type="submit"], input[type="button"] {
             background-color: #006bb3;
             color: white;
+            padding: 8px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover, input[type="button"]:hover {
+            background-color: #005493;
+        }
+
+        a {
+            text-decoration: none;
+            color: #006bb3;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #005493;
         }
     </style>
     <script>
@@ -47,14 +86,14 @@
 </head>
 <body>
 
-<h2>Board List</h2>
+<h1>Club Member List</h1>
 
 <table id="list" width="90%">
     <tr>
         <th>ID</th>
-        <th>Name</th>
-        <th>Number</th>
-        <th>Major</th>
+        <th>이름</th>
+        <th>학번</th>
+        <th>전공</th>
         <th>Redgate</th>
         <th>Edit</th>
         <th>Delete</th>
@@ -75,6 +114,6 @@
 </table>
 
 <br>
-<a href="board/add">Add new student</a>
+<a href="add">Add new student</a>
 </body>
 </html>

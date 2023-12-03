@@ -12,7 +12,7 @@ import java.util.List;
 public class BoardController {
 
     @Autowired
-    private BoardServiceImpl boardService;
+    BoardServiceImpl boardService;
 
     @GetMapping("/list")
     public String getBoardList(Model model) {
@@ -62,8 +62,5 @@ public class BoardController {
         }
         return "redirect:./list";
     }
-    @GetMapping("/")
-    public String redirectToBoardList() {
-        return "redirect:/board/list";
-    }
+
 }
