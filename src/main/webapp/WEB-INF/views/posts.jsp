@@ -37,7 +37,7 @@
 </script>
 </head>
 <body>
-<h1>Member's List</h1>
+<h1>동아리원 명단: </h1>
 
 <table id="list" width="90%">
 <tr>

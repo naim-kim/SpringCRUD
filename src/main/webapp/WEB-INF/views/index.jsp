@@ -2,7 +2,7 @@
          pageEncoding="UTF-8"%>
 <html>
 <head>
-    <title>Title</title>
+    <title>Index Page</title>
 </head>
 <body>
 <jsp:forward page="posts.jsp" />

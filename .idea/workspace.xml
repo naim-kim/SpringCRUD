@@ -9,29 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddd663ca-535f-4e0f-bba7-aeb71a2ac4e1" name="Changes" comment="main + addpost done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/board/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3/storage_v2/_src_/schema/p231_22000056.oIKePg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3/storage_v2/_src_/schema/p231_22000056.oIKePg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="ddd663ca-535f-4e0f-bba7-aeb71a2ac4e1" name="Changes" comment="Redefined.&#10;- table contents recreated&#10;-controller fixed&#10;- all view jsp pages working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring/board/BoardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring/board/BoardDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring/board/BoardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring/board/BoardServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring/board/BoardVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring/board/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +377,7 @@
       <updated>1701504298112</updated>
       <workItem from="1701504299138" duration="21140000" />
       <workItem from="1701525471882" duration="5105000" />
-      <workItem from="1701583155858" duration="22092000" />
+      <workItem from="1701583155858" duration="22417000" />
     </task>
     <task id="LOCAL-00001" summary="data doesn't show">
       <option name="closed" value="true" />
@@ -421,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701591357529</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Redefined.&#10;- table contents recreated&#10;-controller fixed&#10;- all view jsp pages working">
+      <option name="closed" value="true" />
+      <created>1701607329715</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701607329715</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,6 +433,7 @@
     <MESSAGE value="data doesn't show" />
     <MESSAGE value="일단 처음에 추가하면 나오긴해 list path 수정해야함" />
     <MESSAGE value="main + addpost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="main + addpost done" />
+    <MESSAGE value="Redefined.&#10;- table contents recreated&#10;-controller fixed&#10;- all view jsp pages working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redefined.&#10;- table contents recreated&#10;-controller fixed&#10;- all view jsp pages working" />
   </component>
 </project>

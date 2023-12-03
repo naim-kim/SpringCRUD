@@ -4,8 +4,8 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>WELCOME!!!!!!! </h1>
-    <p>The time on the server is ${serverTime}.</p>
-    <p> <a href = "board/list">SEE LIST</a> </p>
+    <h1>Hello! </h1>
+    <h3>현재 시각: [ ${serverTime} ] 최대한 빨리 정보 입력해주세요 ❤️ </h3>
+    <p> <a href = "board/list">24-1하기 활동희망 동아리 명단</a> </p>
 </body>
 </html>
