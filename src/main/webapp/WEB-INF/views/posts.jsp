@@ -28,6 +28,16 @@
   background-color: #006bb3;
   color: white;
 }
+button {
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 </style>
 <script>
 	function delete_ok(id){
@@ -38,6 +48,7 @@
 </head>
 <body>
 <h1>동아리원 명단: </h1>
+<button type="button" onclick="location.href='add'">Add</button>
 
 <table id="list" width="90%">
 <tr>
@@ -65,6 +76,6 @@
 	</tr>
 </c:forEach>
 </table>
-<br/><button type="button" onclick="location.href='add'">Add</button>
+<br/>
 </body>
 </html>

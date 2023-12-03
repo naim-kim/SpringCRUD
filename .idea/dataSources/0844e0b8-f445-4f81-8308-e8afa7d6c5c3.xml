@@ -770,8 +770,8 @@ p231_22000056|schema||p231_22000056||UPDATE|G</Grants>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <schema id="237" parent="1" name="p231_22000056">
-      <IntrospectionTimestamp>2023-12-04.06:37:35</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-12-03.12:37:35</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-12-04.07:47:23</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-12-03.13:47:23</LocalIntrospectionTimestamp>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <user id="238" parent="1" name="p231_22000056"/>
@@ -857,7 +857,7 @@ p231_22000056|schema||p231_22000056||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="257" parent="241" name="seq">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>23</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
