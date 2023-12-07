@@ -770,8 +770,8 @@ p231_22000056|schema||p231_22000056||UPDATE|G</Grants>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <schema id="237" parent="1" name="p231_22000056">
-      <IntrospectionTimestamp>2023-12-04.07:47:23</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-12-03.13:47:23</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-12-06.08:35:00</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-12-05.14:35:01</LocalIntrospectionTimestamp>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <user id="238" parent="1" name="p231_22000056"/>
@@ -804,35 +804,39 @@ p231_22000056|schema||p231_22000056||UPDATE|G</Grants>
       <Position>4</Position>
     </column>
     <column id="246" parent="240" name="seq">
-      <AutoIncrement>21</AutoIncrement>
+      <AutoIncrement>22</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="247" parent="240" name="title">
-      <DasType>varchar(50)|0s</DasType>
+      <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
     <column id="248" parent="240" name="writer">
-      <DasType>varchar(50)|0s</DasType>
+      <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="249" parent="240" name="content">
+    <column id="249" parent="240" name="contacts">
       <DasType>varchar(20)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
     <column id="250" parent="240" name="mbti">
       <DasType>text|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
     <column id="251" parent="240" name="comment">
-      <DasType>text|0s</DasType>
+      <DasType>varchar(1000)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
     <column id="252" parent="240" name="photo">
-      <DasType>varchar(300)|0s</DasType>
+      <DasType>varchar(1000)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
     <column id="253" parent="240" name="cnt">
@@ -857,7 +861,7 @@ p231_22000056|schema||p231_22000056||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="257" parent="241" name="seq">
-      <AutoIncrement>23</AutoIncrement>
+      <AutoIncrement>26</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>

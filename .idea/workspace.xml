@@ -9,8 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddd663ca-535f-4e0f-bba7-aeb71a2ac4e1" name="Changes" comment="simple css added">
+    <list default="true" id="ddd663ca-535f-4e0f-bba7-aeb71a2ac4e1" name="Changes" comment=".war updated">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3/storage_v2/_src_/schema/p231_22000056.oIKePg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3/storage_v2/_src_/schema/p231_22000056.oIKePg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/SpringCRUD/src/main/webapp/WEB-INF/views&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GitHub/jspCRUD&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -376,7 +380,13 @@
       <workItem from="1701525471882" duration="5105000" />
       <workItem from="1701583155858" duration="22718000" />
       <workItem from="1701609193512" duration="6000" />
-      <workItem from="1701611176332" duration="2853000" />
+      <workItem from="1701611176332" duration="2872000" />
+      <workItem from="1701621257552" duration="1301000" />
+      <workItem from="1701628607189" duration="2231000" />
+      <workItem from="1701738251361" duration="904000" />
+      <workItem from="1701741460882" duration="3133000" />
+      <workItem from="1701785394517" duration="2675000" />
+      <workItem from="1701968308194" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="data doesn't show">
       <option name="closed" value="true" />
@@ -434,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701613946567</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=".war updated">
+      <option name="closed" value="true" />
+      <created>1701614043533</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701614043533</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,6 +478,7 @@
     <MESSAGE value="added details" />
     <MESSAGE value=".war" />
     <MESSAGE value="simple css added" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple css added" />
+    <MESSAGE value=".war updated" />
+    <option name="LAST_COMMIT_MESSAGE" value=".war updated" />
   </component>
 </project>

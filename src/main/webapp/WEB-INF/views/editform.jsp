@@ -93,9 +93,10 @@
 	<tr><td>연락처</td><td><form:input path="phonenum" /></td></tr>
 	<tr><td>학부</td><td><form:input path="major" /></td></tr>
 	</table>
+	<button class="goback" type="button" onclick=history.back()>Go Back</button>
+	<button class="edit-button" type="submit">Edit</button>
 </form:form>
-<button class="goback" type="button" onclick=history.back()>Go Back</button>
-<button class="edit-button" type="submit">Edit</button>
+
 </div>
 </body>
 </html>
