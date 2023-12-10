@@ -9,7 +9,6 @@ public class BoardVO {
     private String phonenum;
     private String major;
     private Date regdate;
-    private int cnt;
 
     public int getSeq() {
         return seq;

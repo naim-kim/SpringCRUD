@@ -9,12 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddd663ca-535f-4e0f-bba7-aeb71a2ac4e1" name="Changes" comment=".war updated">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3/storage_v2/_src_/schema/p231_22000056.oIKePg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0844e0b8-f445-4f81-8308-e8afa7d6c5c3/storage_v2/_src_/schema/p231_22000056.oIKePg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ddd663ca-535f-4e0f-bba7-aeb71a2ac4e1" name="Changes" comment="empty files deleted + pages title's edited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +78,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GitHub/jspCRUD&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/TMI&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -387,6 +394,20 @@
       <workItem from="1701741460882" duration="3133000" />
       <workItem from="1701785394517" duration="2675000" />
       <workItem from="1701968308194" duration="635000" />
+      <workItem from="1701992461256" duration="100000" />
+      <workItem from="1701992791844" duration="151000" />
+      <workItem from="1701997993687" duration="751000" />
+      <workItem from="1702000299717" duration="200000" />
+      <workItem from="1702001304300" duration="220000" />
+      <workItem from="1702004735911" duration="82000" />
+      <workItem from="1702058060957" duration="976000" />
+      <workItem from="1702059404816" duration="430000" />
+      <workItem from="1702105393018" duration="3662000" />
+      <workItem from="1702110949950" duration="453000" />
+      <workItem from="1702111827658" duration="101000" />
+      <workItem from="1702118446369" duration="174000" />
+      <workItem from="1702142203152" duration="3735000" />
+      <workItem from="1702204495241" duration="2028000" />
     </task>
     <task id="LOCAL-00001" summary="data doesn't show">
       <option name="closed" value="true" />
@@ -452,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701614043533</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="editform buttons edited">
+      <option name="closed" value="true" />
+      <created>1701992523035</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701992523035</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,6 +508,8 @@
     <MESSAGE value=".war" />
     <MESSAGE value="simple css added" />
     <MESSAGE value=".war updated" />
-    <option name="LAST_COMMIT_MESSAGE" value=".war updated" />
+    <MESSAGE value="editform buttons edited" />
+    <MESSAGE value="empty files deleted + pages title's edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="empty files deleted + pages title's edited" />
   </component>
 </project>

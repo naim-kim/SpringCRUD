@@ -1,18 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" isELIgnored="false"%>
-<%@page import="com.example.board.BoardDAO, com.example.board.BoardVO,java.util.*"%>
+<%@ page contentType="text/html; charset=UTF-8"
+		 pageEncoding="UTF-8" isELIgnored="false"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>free board</title>
+<title>Club Members Board</title>
 <style>
+
 #list {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 95%;
+	margin: auto;
 }
 #list td, #list th {
   border: 1px solid #ddd;
@@ -41,7 +42,7 @@ button {
 </style>
 <script>
 	function delete_ok(id){
-		var a = confirm("정말로 삭제하겠습니까?");
+		const a = confirm("정말로 삭제하겠습니까?");
 		if(a) location.href='delete/' + id;
 	}
 </script>
@@ -50,14 +51,14 @@ button {
 <h1>동아리원 명단: </h1>
 <button type="button" onclick="location.href='add'">Add</button>
 
-<table id="list" width="90%">
+<table id="list">
 <tr>
 	<th>ID</th>
 	<th>이름</th>
 	<th>학번</th>
 	<th>연락처</th>
 	<th>학부</th>
-	<th>입력날짜</th>
+	<th>입력 날짜</th>
 	<th>View</th>
 	<th>Edit</th>
 	<th>Delete</th>

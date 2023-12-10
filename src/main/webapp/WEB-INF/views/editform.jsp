@@ -1,14 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" isELIgnored="false" %>
- <%@page import="com.example.board.BoardDAO, com.example.board.BoardVO"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ page contentType="text/html; charset=UTF-8"
+		 pageEncoding="UTF-8" isELIgnored="false" %>
+ <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Edit Form</title>
+<title>Edit Member's Info</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;

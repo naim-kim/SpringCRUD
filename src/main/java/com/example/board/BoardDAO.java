@@ -16,27 +16,26 @@ public class BoardDAO {
         this.template = template;
     }
 
-    private final String MEMBER_INSERT = "insert into MEMBER (name, studentnum, phonenum, major) values (?,?,?,?)";
-    private final String MEMBER_UPDATE = "update MEMBER set name=?, studentnum=?, phonenum=?, major=? where seq=?";
-    private final String MEMBER_DELETE = "delete from MEMBER where seq=?";
-    private final String MEMBER_GET = "select * from MEMBER where seq=?";
-    private final String MEMBER_LIST = "select * from MEMBER order by seq desc";
-
     public int insertBoard(BoardVO vo) {
-        return template.update(MEMBER_INSERT, new Object[]{vo.getName(), vo.getStudentnum(), vo.getPhonenum(), vo.getMajor()});
+        String MEMBER_INSERT = "insert into MEMBER (name, studentnum, phonenum, major) values (?,?,?,?)";
+        return template.update(MEMBER_INSERT, vo.getName(), vo.getStudentnum(), vo.getPhonenum(), vo.getMajor());
     }
-    public int deleteBoard(int id) {
-        return template.update(MEMBER_DELETE, new Object[]{id});
+    public void deleteBoard(int id) {
+        String MEMBER_DELETE = "delete from MEMBER where seq=?";
+        template.update(MEMBER_DELETE, id);
     }
     public int updateBoard(BoardVO vo) {
-        return template.update(MEMBER_UPDATE, new Object[]{vo.getName(), vo.getStudentnum(), vo.getPhonenum(), vo.getMajor(), vo.getSeq()});
+        String MEMBER_UPDATE = "update MEMBER set name=?, studentnum=?, phonenum=?, major=? where seq=?";
+        return template.update(MEMBER_UPDATE, vo.getName(), vo.getStudentnum(), vo.getPhonenum(), vo.getMajor(), vo.getSeq());
     }
     public BoardVO getBoard(int seq) {
+        String MEMBER_GET = "select * from MEMBER where seq=?";
         return template.queryForObject(MEMBER_GET,
                 new Object[] {seq},
-                new BeanPropertyRowMapper<BoardVO>(BoardVO.class));
+                new BeanPropertyRowMapper<>(BoardVO.class));
     }
     public List<BoardVO> getBoardList() {
+        String MEMBER_LIST = "select * from MEMBER order by seq desc";
         return template.query(MEMBER_LIST, new RowMapper<BoardVO>() {
 
             @Override
